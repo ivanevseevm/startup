@@ -1,0 +1,16 @@
+@mixin font-moserrat() {
+    font-family: 'Montserrat', sans-serif;
+}
+@mixin font-roboto-slab() {
+    font-family: 'Roboto Slab', serif;
+}
+
+@mixin animate-color() {
+    transition: color $animation_time ease;
+}
+
+@mixin flex-column-center() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
